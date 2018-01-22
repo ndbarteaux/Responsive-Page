@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+
+.jumbotron {
+    text-align: center;
+	margin-bottom: 0px;
+}
+
+.page-header {
+	border-bottom: 0px;
+}
+
+.list-group {
+	margin-bottom: 0px;
+}
