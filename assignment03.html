@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	
+	<!-- Add appropriate required meta tags needed for the responsive webpage using bootstrap -->
+	
+	<!-- Add required bootstrap CDN links for style sheet and required scripts -->
+		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="./style.css">
+		<title>First Bootstrap Page</title>
+
+	</head>
+
+
+	<body>
+
+	<!-- Use the jumbotron for creating the header for the webpage -->
+
+		<div class="jumbotron">
+            
+            <h1>CT 310 Responsive Webpage</h1>
+            <p>Using bootstrap</p>
+
+		</div>
+	
+	<!-- Create the collapsing navigation bar -->
+		
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>       
+						<span class="icon-bar"></span>      
+						<span class="icon-bar"></span>                      
+					</button>
+					<a class="navbar-brand" href="https://www.cs.colostate.edu/~ct310/yr2017sp/">CT 310</a>
+				</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Assignments <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="https://www.cs.colostate.edu/~ct310/yr2017sp/more_assignments/assignment00.php">Assignment 0</a></li>
+                            <li><a href="https://www.cs.colostate.edu/~ct310/yr2017sp/more_assignments/assignment01.php">Assignment 1</a></li>
+                            <li><a href="https://www.cs.colostate.edu/~ct310/yr2017sp/more_assignments/assignment02.php">Assignment 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">CSU Links <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="http://www.colostate.edu/">CSU Home</a></li>
+                            <li><a href="https://www.cs.colostate.edu/cstop/">CS Dept</a></li>
+                            <li><a href="https://www.cs.colostate.edu/~ct310/yr2017sp/index.php">CT 310 Homepage</a></li>
+                        </ul>
+                    </li>
+                </ul>
+			</div>
+			</div>
+		</nav>
+		
+	<!-- create three coulumn with lg and md size-->
+		
+		<div class="container-fluid">
+			<div class="row visible-on">
+					
+                <div class="col-md-6 col-lg-4">
+                    <div class="list-group">
+                        <a href="http://www.colostate.edu/" class="list-group-item">CSU Home</a>
+                        <a href="https://www.cs.colostate.edu/cstop/" class="list-group-item">CS Dept</a>
+                        <a href="https://www.cs.colostate.edu/~ct310/yr2017sp/index.php" class="list-group-item">CT 310</a>
+                    </div>
+                </div>
+					
+					
+					
+					
+					
+					
+					
+	<!-- Add Main Content here -->
+	
+				
+				<div class="col-md-6 col-lg-4">
+                    <h1>Main Content</h1><br>
+                    <p>"Don't ever criticize yourself. Don't go around all day long thinking, 'I'm unattractive, I'm slow, I'm not as smart as my brother.' God wasn't having a bad day when he made you... If you don't love yourself in the right way, you can't love your neighbour. You can't be as good as you are supposed to be."</p><br>
+                    <p>-Joel Osteen</p>
+				</div>
+				
+				
+				
+				
+				
+			
+					
+	<!-- Add Image here -->				
+                
+                <div class="col-lg-4">
+                    <img src="./myImage.jpg" class="img-circle hidden-sm hidden-xs" alt="My Image" width="304" height="236">
+                </div>
+			
+			
+			
+			
+			
+			</div>
+		</div>
+		
+
+	</body>
+</html>
